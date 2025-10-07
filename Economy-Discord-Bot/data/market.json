@@ -1,0 +1,172 @@
+{
+  "users": [
+    [
+      "fyb69i2a6mgbwrkq2",
+      {
+        "id": "fyb69i2a6mgbwrkq2",
+        "discordId": "1268562577080713282",
+        "createdAt": "2025-10-04T06:44:49.706Z",
+        "updatedAt": "2025-10-04T06:44:49.706Z"
+      }
+    ],
+    [
+      "hcxn0bidimgbx9l2e",
+      {
+        "id": "hcxn0bidimgbx9l2e",
+        "discordId": "1420381162509176942",
+        "createdAt": "2025-10-04T06:58:49.958Z",
+        "updatedAt": "2025-10-04T06:58:49.958Z"
+      }
+    ],
+    [
+      "lb46ojtsumgby8tpv",
+      {
+        "id": "lb46ojtsumgby8tpv",
+        "discordId": "fyb69i2a6mgbwrkq2",
+        "createdAt": "2025-10-04T07:26:14.131Z",
+        "updatedAt": "2025-10-04T07:26:14.131Z"
+      }
+    ],
+    [
+      "qzji0h2gemgbyjlls",
+      {
+        "id": "qzji0h2gemgbyjlls",
+        "discordId": "hcxn0bidimgbx9l2e",
+        "createdAt": "2025-10-04T07:34:36.832Z",
+        "updatedAt": "2025-10-04T07:34:36.832Z"
+      }
+    ],
+    [
+      "x9tp3wo1omgc1q2wv",
+      {
+        "id": "x9tp3wo1omgc1q2wv",
+        "discordId": "304915006456332289",
+        "createdAt": "2025-10-04T09:03:38.047Z",
+        "updatedAt": "2025-10-04T09:03:38.047Z"
+      }
+    ],
+    [
+      "8kp7634djmgc1v5el",
+      {
+        "id": "8kp7634djmgc1v5el",
+        "discordId": "x9tp3wo1omgc1q2wv",
+        "createdAt": "2025-10-04T09:07:34.557Z",
+        "updatedAt": "2025-10-04T09:07:34.557Z"
+      }
+    ]
+  ],
+  "stocks": [],
+  "listings": [
+    [
+      "f0gl2c0qxmgdzk6sy",
+      {
+        "id": "f0gl2c0qxmgdzk6sy",
+        "sellerId": "fyb69i2a6mgbwrkq2",
+        "itemName": "Оружие",
+        "price": 9999,
+        "quantityAvailable": 5,
+        "imageUrl": null,
+        "category": "Оружие",
+        "status": "ACTIVE",
+        "createdAt": "2025-10-05T17:38:36.274Z",
+        "updatedAt": "2025-10-05T17:38:36.274Z"
+      }
+    ],
+    [
+      "pjf4unaqvmgdzoe6m",
+      {
+        "id": "pjf4unaqvmgdzoe6m",
+        "sellerId": "fyb69i2a6mgbwrkq2",
+        "itemName": "Мясо",
+        "price": 999,
+        "quantityAvailable": 5,
+        "imageUrl": null,
+        "category": "Еда",
+        "status": "ACTIVE",
+        "createdAt": "2025-10-05T17:41:52.462Z",
+        "updatedAt": "2025-10-05T17:41:52.462Z"
+      }
+    ]
+  ],
+  "deals": [],
+  "auctions": [
+    [
+      "xohvra68gmgdzoyjo",
+      {
+        "id": "xohvra68gmgdzoyjo",
+        "creatorId": "fyb69i2a6mgbwrkq2",
+        "itemName": "алмаз",
+        "startTime": "2025-10-05T17:42:18.851Z",
+        "endTime": "2025-10-05T17:47:18.851Z",
+        "minPrice": 500,
+        "description": null,
+        "category": "Драгоценности",
+        "imageUrl": null,
+        "status": "ENDED_NO_BIDS",
+        "createdAt": "2025-10-05T17:42:18.852Z",
+        "updatedAt": "2025-10-05T17:47:30.974Z",
+        "threadId": "1424451658477338635"
+      }
+    ],
+    [
+      "w894mqd62mgdzrbew",
+      {
+        "id": "w894mqd62mgdzrbew",
+        "creatorId": "fyb69i2a6mgbwrkq2",
+        "itemName": "тест",
+        "startTime": "2025-10-05T17:44:08.840Z",
+        "endTime": "2025-10-05T17:45:08.840Z",
+        "minPrice": 1,
+        "description": null,
+        "category": "Драгоценности",
+        "imageUrl": null,
+        "status": "ENDED_NO_BIDS",
+        "createdAt": "2025-10-05T17:44:08.840Z",
+        "updatedAt": "2025-10-05T17:45:30.968Z",
+        "threadId": "1424452119469228117"
+      }
+    ]
+  ],
+  "bids": [],
+  "auditLog": [
+    {
+      "id": "bp6gb28e8mgdzk6t0",
+      "actorId": "1268562577080713282",
+      "action": "LISTING_CREATED",
+      "payloadJson": "{\"listingId\":\"f0gl2c0qxmgdzk6sy\",\"itemName\":\"Оружие\",\"price\":9999,\"quantity\":5}",
+      "createdAt": "2025-10-05T17:38:36.276Z"
+    },
+    {
+      "id": "b7exojhokmgdzoe6n",
+      "actorId": "1268562577080713282",
+      "action": "LISTING_CREATED",
+      "payloadJson": "{\"listingId\":\"pjf4unaqvmgdzoe6m\",\"itemName\":\"Мясо\",\"price\":999,\"quantity\":5}",
+      "createdAt": "2025-10-05T17:41:52.463Z"
+    },
+    {
+      "id": "auq3pvz9pmgdzoyjp",
+      "actorId": "1268562577080713282",
+      "action": "AUCTION_CREATED",
+      "payloadJson": "{\"auctionId\":\"xohvra68gmgdzoyjo\",\"itemName\":\"алмаз\",\"duration\":5,\"minPrice\":500,\"startTime\":\"2025-10-05T17:42:18.851Z\",\"endTime\":\"2025-10-05T17:47:18.851Z\"}",
+      "createdAt": "2025-10-05T17:42:18.853Z"
+    },
+    {
+      "id": "x833emcw7mgdzrbey",
+      "actorId": "1268562577080713282",
+      "action": "AUCTION_CREATED",
+      "payloadJson": "{\"auctionId\":\"w894mqd62mgdzrbew\",\"itemName\":\"тест\",\"duration\":1,\"minPrice\":1,\"startTime\":\"2025-10-05T17:44:08.840Z\",\"endTime\":\"2025-10-05T17:45:08.840Z\"}",
+      "createdAt": "2025-10-05T17:44:08.842Z"
+    }
+  ],
+  "persistentMessages": [
+    [
+      "market",
+      {
+        "channelId": "1423960996547924009",
+        "messageId": "1424775215921106965",
+        "createdAt": "2025-10-06T15:08:02.662Z",
+        "updatedAt": "2025-10-06T15:08:02.662Z"
+      }
+    ]
+  ]
+}
